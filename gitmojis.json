@@ -3,9 +3,25 @@
 		"emoji"      : "🎉",
 		"entity"     : "&#127881;",
 		"code"       : ":tada:",
-		"description": "root: begin a project | 初次提交",
+		"description": "root: begin a project | 初始化",
 		"name"       : "tada",
 		"semver"     : null
+	},
+	{
+		"emoji"      : "🚧",
+		"entity"     : "&#x1f6a7;",
+		"code"       : ":construction:",
+		"description": "wip: work in progress | 进行中",
+		"name"       : "construction",
+		"semver"     : null
+	},
+	{
+		"emoji"      : "💥",
+		"entity"     : "&#x1f4a5;",
+		"code"       : ":boom:",
+		"description": "feat: breaking changes | 突破性变化",
+		"name"       : "boom",
+		"semver"     : "major"
 	},
 	{
 		"emoji"      : "✨",
@@ -40,14 +56,6 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🩹",
-		"entity"     : "&#x1fa79;",
-		"code"       : ":adhesive_bandage:",
-		"description": "fix: simple fix for a non-critical issue | 简单修复",
-		"name"       : "adhesive-bandage",
-		"semver"     : "patch"
-	},
-	{
 		"emoji"      : "✏️",
 		"entity"     : "&#59161;",
 		"code"       : ":pencil2:",
@@ -56,12 +64,12 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🎨",
-		"entity"     : "&#x1f3a8;",
-		"code"       : ":art:",
-		"description": "perf: improve structure / format of the code | 改进代码结构 / 代码格式",
-		"name"       : "art",
-		"semver"     : null
+		"emoji"      : "🔒️",
+		"entity"     : "&#x1f512;",
+		"code"       : ":lock:",
+		"description": "fix: fix security issues | 修复安全问题",
+		"name"       : "lock",
+		"semver"     : "patch"
 	},
 	{
 		"emoji"      : "⚡️",
@@ -72,35 +80,19 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "♿️",
-		"entity"     : "&#9855;",
-		"code"       : ":wheelchair:",
-		"description": "perf: improve accessibility | 提高可访问性",
-		"name"       : "wheelchair",
-		"semver"     : "patch"
-	},
-	{
-		"emoji"      : "🚸",
-		"entity"     : "&#128696;",
-		"code"       : ":children_crossing:",
-		"description": "perf: improve user experience / usability | 改善用户体验 / 可用性",
-		"name"       : "children-crossing",
-		"semver"     : "patch"
-	},
-	{
-		"emoji"      : "🔍️",
-		"entity"     : "&#128269;",
-		"code"       : ":mag:",
-		"description": "perf: improve seo | 改善 seo",
-		"name"       : "mag",
-		"semver"     : "patch"
-	},
-	{
 		"emoji"      : "♻️",
 		"entity"     : "&#x2672;",
 		"code"       : ":recycle:",
 		"description": "refactor: refactor code | 重构代码",
 		"name"       : "recycle",
+		"semver"     : null
+	},
+	{
+		"emoji"      : "🏗️",
+		"entity"     : "&#1f3d7;",
+		"code"       : ":building_construction:",
+		"description": "refactor: make architectural changes | 进行架构更改",
+		"name"       : "building-construction",
 		"semver"     : null
 	},
 	{
@@ -120,6 +112,14 @@
 		"semver"     : null
 	},
 	{
+		"emoji"      : "👥",
+		"entity"     : "&#128101;",
+		"code"       : ":busts_in_silhouette:",
+		"description": "docs: add or update contributor(s) | 添加贡献者",
+		"name"       : "chore: busts-in-silhouette",
+		"semver"     : null
+	},
+	{
 		"emoji"      : "✅",
 		"entity"     : "&#x2705;",
 		"code"       : ":white_check_mark:",
@@ -131,7 +131,7 @@
 		"emoji"      : "⏪️",
 		"entity"     : "&#9194;",
 		"code"       : ":rewind:",
-		"description": "revert: revert changes | 恢复更改",
+		"description": "revert: revert changes | 回滚",
 		"name"       : "rewind",
 		"semver"     : "patch"
 	},
@@ -141,14 +141,6 @@
 		"code"       : ":twisted_rightwards_arrows:",
 		"description": "merge: merge branches | 合并分支",
 		"name"       : "twisted-rightwards-arrows",
-		"semver"     : null
-	},
-	{
-		"emoji"      : "🚀",
-		"entity"     : "&#x1f680;",
-		"code"       : ":rocket:",
-		"description": "deploy: deploy stuff | 部署功能",
-		"name"       : "rocket",
 		"semver"     : null
 	},
 	{
@@ -192,28 +184,52 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🏗️",
-		"entity"     : "&#1f3d7;",
-		"code"       : ":building_construction:",
-		"description": "build: make architectural changes | 进行架构更改",
-		"name"       : "building-construction",
+		"emoji"      : "🎨",
+		"entity"     : "&#x1f3a8;",
+		"code"       : ":art:",
+		"description": "style: improve structure / format of the code | 改进代码结构 / 代码格式",
+		"name"       : "art",
 		"semver"     : null
 	},
 	{
-		"emoji"      : "🔒️",
-		"entity"     : "&#x1f512;",
-		"code"       : ":lock:",
-		"description": "fix: fix security issues | 修复安全问题",
-		"name"       : "lock",
+		"emoji"      : "💡",
+		"entity"     : "&#128161;",
+		"code"       : ":bulb:",
+		"description": "style: add or update comments in source code | 添加代码注释",
+		"name"       : "bulb",
+		"semver"     : null
+	},
+	{
+		"emoji"      : "🏷️",
+		"entity"     : "&#127991;",
+		"code"       : ":label:",
+		"description": "style: add or update types | 添加更新类型",
+		"name"       : "label",
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🚧",
-		"entity"     : "&#x1f6a7;",
-		"code"       : ":construction:",
-		"description": "wip: work in progress | 进行中",
-		"name"       : "construction",
+		"emoji"      : "📦️",
+		"entity"     : "&#1f4e6;",
+		"code"       : ":package:",
+		"description": "build: add or update compiled files or packages | 更新编译的文件或包",
+		"name"       : "package",
+		"semver"     : "patch"
+	},
+	{
+		"emoji"      : "📸",
+		"entity"     : "&#128248;",
+		"code"       : ":camera_flash:",
+		"description": "build: add or update snapshots | 添加或更新快照",
+		"name"       : "camera-flash",
 		"semver"     : null
+	},
+	{
+		"emoji"      : "🚑️",
+		"entity"     : "&#128657;",
+		"code"       : ":ambulance:",
+		"description": "build(hotfix): critical hotfix | 热更新补丁",
+		"name"       : "ambulance",
+		"semver"     : "patch"
 	},
 	{
 		"emoji"      : "💚",
@@ -240,11 +256,11 @@
 		"semver"     : null
 	},
 	{
-		"emoji"      : "🔥",
-		"entity"     : "&#x1f525;",
-		"code"       : ":fire:",
-		"description": "chore: remove code or files | 移除代码或文件",
-		"name"       : "fire",
+		"emoji"      : "🚀",
+		"entity"     : "&#x1f680;",
+		"code"       : ":rocket:",
+		"description": "chore: update / deploy stuff | 更新或部署功能",
+		"name"       : "rocket",
 		"semver"     : null
 	},
 	{
@@ -304,11 +320,43 @@
 		"semver"     : null
 	},
 	{
+		"emoji"      : "🌐",
+		"entity"     : "&#127760;",
+		"code"       : ":globe_with_meridians:",
+		"description": "chore(i18n): internationalization and localization | 国际化与本地化",
+		"name"       : "globe-with-meridians",
+		"semver"     : "patch"
+	},
+	{
 		"emoji"      : "📈",
 		"entity"     : "&#x1f4c8;",
 		"code"       : ":chart_with_upwards_trend:",
-		"description": "chore: add or update analytics or track code | 添加分析或跟踪代码",
+		"description": "chore(spm): add or update analytics or track code | 添加分析或跟踪代码 / 埋点",
 		"name"       : "chart-with-upwards-trend",
+		"semver"     : "patch"
+	},
+	{
+		"emoji"      : "♿️",
+		"entity"     : "&#9855;",
+		"code"       : ":wheelchair:",
+		"description": "chore(ces): improve accessibility | 无障碍 / 可用性",
+		"name"       : "wheelchair",
+		"semver"     : "patch"
+	},
+	{
+		"emoji"      : "🚸",
+		"entity"     : "&#128696;",
+		"code"       : ":children_crossing:",
+		"description": "chore(ux): improve user experience / usability | 改善用户体验",
+		"name"       : "children-crossing",
+		"semver"     : "patch"
+	},
+	{
+		"emoji"      : "🔍️",
+		"entity"     : "&#128269;",
+		"code"       : ":mag:",
+		"description": "chore(seo): improve seo | 改善 seo",
+		"name"       : "mag",
 		"semver"     : "patch"
 	},
 	{
@@ -320,26 +368,10 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🌐",
-		"entity"     : "&#127760;",
-		"code"       : ":globe_with_meridians:",
-		"description": "chore: internationalization and localization | 国际化与本地化",
-		"name"       : "globe-with-meridians",
-		"semver"     : "patch"
-	},
-	{
-		"emoji"      : "📦️",
-		"entity"     : "&#1f4e6;",
-		"code"       : ":package:",
-		"description": "chore: add or update compiled files or packages | 更新编译的文件或包",
-		"name"       : "package",
-		"semver"     : "patch"
-	},
-	{
 		"emoji"      : "👽️",
 		"entity"     : "&#1f47d;",
 		"code"       : ":alien:",
-		"description": "chore: update code due to external api changes | 由于外部API更改而更新代码",
+		"description": "chore: update code due to external api changes | 由于外部 API 更改而更新代码",
 		"name"       : "alien",
 		"semver"     : "patch"
 	},
@@ -352,30 +384,6 @@
 		"semver"     : null
 	},
 	{
-		"emoji"      : "💥",
-		"entity"     : "&#x1f4a5;",
-		"code"       : ":boom:",
-		"description": "chore: introduce breaking changes | 介绍突破性变化",
-		"name"       : "boom",
-		"semver"     : "major"
-	},
-	{
-		"emoji"      : "💡",
-		"entity"     : "&#128161;",
-		"code"       : ":bulb:",
-		"description": "chore: add or update comments in source code | 添加代码注释",
-		"name"       : "bulb",
-		"semver"     : null
-	},
-	{
-		"emoji"      : "🏷️",
-		"entity"     : "&#127991;",
-		"code"       : ":label:",
-		"description": "chore: add or update types | 添加和更新类型",
-		"name"       : "label",
-		"semver"     : "patch"
-	},
-	{
 		"emoji"      : "🗃️",
 		"entity"     : "&#128451;",
 		"code"       : ":card_file_box:",
@@ -384,34 +392,10 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🔊",
-		"entity"     : "&#128266;",
-		"code"       : ":loud_sound:",
-		"description": "chore: add or update logs | 添加日志",
-		"name"       : "loud-sound",
-		"semver"     : null
-	},
-	{
-		"emoji"      : "🔇",
-		"entity"     : "&#128263;",
-		"code"       : ":mute:",
-		"description": "chore: remove logs | 删除日志",
-		"name"       : "mute",
-		"semver"     : null
-	},
-	{
-		"emoji"      : "👥",
-		"entity"     : "&#128101;",
-		"code"       : ":busts_in_silhouette:",
-		"description": "add or update contributor(s) | 添加贡献者",
-		"name"       : "chore: busts-in-silhouette",
-		"semver"     : null
-	},
-	{
 		"emoji"      : "🤡",
 		"entity"     : "&#129313;",
 		"code"       : ":clown_face:",
-		"description": "chore: mock things | moke 数据",
+		"description": "chore: mock things | mock 数据",
 		"name"       : "clown-face",
 		"semver"     : null
 	},
@@ -424,14 +408,6 @@
 		"semver"     : null
 	},
 	{
-		"emoji"      : "📸",
-		"entity"     : "&#128248;",
-		"code"       : ":camera_flash:",
-		"description": "chore: add or update snapshots | 添加或更新快照",
-		"name"       : "camera-flash",
-		"semver"     : null
-	},
-	{
 		"emoji"      : "🛂",
 		"entity"     : "&#x1f6c2;",
 		"code"       : ":passport_control:",
@@ -440,27 +416,35 @@
 		"semver"     : "patch"
 	},
 	{
-		"emoji"      : "🧐",
-		"entity"     : "&#x1f9d0;",
-		"code"       : ":monocle_face:",
-		"description": "chore: data exploration / inspection | 数据处理",
-		"name"       : "monocle-face",
+		"emoji"      : "🔥",
+		"entity"     : "&#x1f525;",
+		"code"       : ":fire:",
+		"description": "chore(clean): remove code or files | 移除代码或文件",
+		"name"       : "fire",
 		"semver"     : null
 	},
 	{
 		"emoji"      : "⚰️",
 		"entity"     : "&#x26b0;",
 		"code"       : ":coffin:",
-		"description": "chore: remove dead code | 删除无效代码",
+		"description": "chore(clean): remove dead code | 删除无效代码",
 		"name"       : "coffin",
 		"semver"     : null
 	},
 	{
-		"emoji"      : "🚑️",
-		"entity"     : "&#128657;",
-		"code"       : ":ambulance:",
-		"description": "hotfix: critical hotfix | 重要补丁",
-		"name"       : "ambulance",
-		"semver"     : "patch"
+		"emoji"      : "🔊",
+		"entity"     : "&#128266;",
+		"code"       : ":loud_sound:",
+		"description": "chore(logs): add or update logs | 添加日志",
+		"name"       : "loud-sound",
+		"semver"     : null
+	},
+	{
+		"emoji"      : "🔇",
+		"entity"     : "&#128263;",
+		"code"       : ":mute:",
+		"description": "chore(logs): remove logs | 删除日志",
+		"name"       : "mute",
+		"semver"     : null
 	}
 ]
