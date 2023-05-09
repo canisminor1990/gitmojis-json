@@ -10,7 +10,7 @@
   {
     "emoji": "🐛",
     "entity": "&#x1f41b;",
-    "code": ":bug: fix: ",
+    "code": ":bug:",
     "description": "fix a bug | 修复 bug",
     "name": "bug",
     "semver": "patch"
